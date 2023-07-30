@@ -1,3 +1,4 @@
+// Numbers
 
 console.log(Number.MAX_SAFE_INTEGER) // Biggest numer / no decimal - 9 quadrillion 2 to the power of 53 - 1 (9007199254740991).
 console.log(Math.pow(2, 53)-1) // Biggest numer / no decimal - 9 quadrillion 2 to the power of 53 - 1.
