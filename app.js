@@ -5,3 +5,9 @@ const randomIntBetween = ((min, max) => { //min: 5, max: 10
 })
 
 console.log(randomIntBetween(3,10))
+
+// Strings - Tagged Templates
+
+const name =  'Joseph';
+
+console.log(`My name is ${name}.`)
