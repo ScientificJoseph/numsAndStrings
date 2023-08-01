@@ -27,5 +27,13 @@ const productDescription = ((strings, productName, productPrice) => { //first pa
 const prodName = 'JavaScript Course'
 const prodPrice = 29.99
 
-const productOutput = productDescription`This product (${prodName}) is ${prodPrice}.`
-console.log(productOutput)
+// const productOutput = productDescription`This product (${prodName}) is ${prodPrice}.`
+// console.log(productOutput)
+
+const userInput = 'testtest.com'
+
+// console.log(userInput.includes('@'))
+
+const regex = /^\S+@\S+\.\S+$/
+console.log(regex.test(userInput))
+console.log(regex.test('test@test.com'))
