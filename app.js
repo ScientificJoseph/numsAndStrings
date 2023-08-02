@@ -34,6 +34,24 @@ const userInput = 'testtest.com'
 
 // console.log(userInput.includes('@'))
 
-const regex = /^\S+@\S+\.\S+$/
-console.log(regex.test(userInput))
-console.log(regex.test('test@test.com'))
+// const regex = /^\S+@\S+\.\S+$/
+// console.log(regex.test(userInput))
+// console.log(regex.test('test@test.com'))
+
+const regex = /hello/
+console.log(regex.test('hello'))
+console.log(regex.test('well hello'))
+console.log(regex.test('well Hello'))
+
+const regex2 = /(h|H)ello/
+console.log(regex2.test('hello'))
+console.log(regex2.test('Hello'))
+console.log(regex2.test('hi - hello'))
+console.log(regex2.test('hi - hello ...'))
+console.log(regex2.test('hi - Hello ...'))
+console.log(regex2.test('hi - ello ...'))
+
+const regex3 = /.ello/
+console.log(regex3.test('nello')) // . indicates wild card. needs to be 5 characters
+
+console.log(regex.exec('hello'))
